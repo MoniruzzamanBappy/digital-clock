@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: linear-gradient(45deg, #333, #0d8bca);
+  color: #879c0d;
+  font-family: Arial, sans-serif;
+}
+
+.clock {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  background: #0475805b;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px linear-gradient(45deg, #333, #0d8bca);
+  /* add gradient color */
+}
